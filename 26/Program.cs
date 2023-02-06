@@ -5,11 +5,11 @@
 // 78 -> 2
 // 89126 -> 5
 
-Console.Clear();
+
 Console.Write("Введите число А: ");
 int A = Convert.ToInt32(Console.ReadLine());
 int count = 0; //количество цифр в числе
-
+Console.Clear();
 while (A > 0)
 {
     A /= 10; // A = A/10
